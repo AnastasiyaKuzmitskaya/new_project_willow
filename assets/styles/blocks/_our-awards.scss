@@ -40,7 +40,7 @@
     &__items--wrapper {
         display: flex;
         justify-content: center;
-        width: 1280px;
+        
     }
 
 
@@ -49,7 +49,8 @@
         border: 1px solid $ColorBorderGrey;
         
         margin-right:35px;
-
+        
+        
         &:last-child{
             margin-right: 0;
         }

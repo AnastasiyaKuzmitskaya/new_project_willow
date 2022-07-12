@@ -1,7 +1,12 @@
 .main-section{
     position: relative;
     padding-bottom: 60px;
+
     
+
+    /* &__main-item{
+       
+    } */
     &__item-logo{
         display: flex;
         align-items: center;
@@ -14,7 +19,11 @@
         display: flex;
         align-items: center;
         margin-right: 35px;
-        
+        cursor: pointer;
+        &:hover {
+            
+            transform: scale(1.02)
+        }
     }
 
     &__logo-img{
@@ -39,7 +48,12 @@
         font-size: 16px; 
         color: #485B60; 
         width: 135px;
-        
+        padding:10px;
+        &:hover {
+            color:$ColorTitleText;
+            transform: scale(1.02);
+            padding:10px;
+        }
     }
     &__content-container{
         display: flex;

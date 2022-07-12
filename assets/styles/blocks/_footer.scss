@@ -23,8 +23,11 @@
         font-weight: 400;
         font-size: 12px;
         letter-spacing: 0.42px;
-        color: #26534C;
-
+        color: $ColorGreenBtn;
+        &:hover{
+            color:$ColorGreyText;
+            cursor: pointer;
+        }
     }
     &__item{
         

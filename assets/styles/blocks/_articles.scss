@@ -46,7 +46,7 @@
         justify-content: center;
         align-items: center;
         margin: 30px 0;
-        width: 1280px;
+        
     
 
     }
@@ -54,6 +54,9 @@
     &__item{
         margin-right: 40px;
         border: 1px solid $ColorBorderGrey;
+        width:400px;
+        height:484px;
+        
         &:last-child{
             margin-right: 0;
         }
@@ -148,7 +151,7 @@
     &__btn-item{
         display: flex;
         align-items: center;
-        padding: 3px 7px 3px 7px;
+        padding: 7px 10px;
         width: 130px;
         border-radius: 0;
         background: none;
