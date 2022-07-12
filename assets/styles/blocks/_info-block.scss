@@ -1,0 +1,74 @@
+
+.info-block{
+
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        min-height: 42px;
+        align-items: center;
+        
+        padding: 80px 130px 50px 110px;
+    }
+
+    &__logo{
+        display: flex;
+        align-items: center;
+        
+    }
+    &__img{
+        background-color: #ECE8D9;
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+        margin-right: 12px;
+    }
+    &__name-logo{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;    
+        letter-spacing: 1px;
+        color: #333333;
+        
+    }
+}
+
+/* .nav-menu{
+    
+    &__item{
+    
+        &:last-child{
+            
+            margin-right: 0;
+        }
+    }
+    &__list{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    &__item-indent{
+        margin-right: 10px;
+    }
+     __link{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 0.42px;
+        text-decoration: none;
+        color: #1C3F3A;
+        padding: 9px 17px;
+        
+        &:hover{
+            transition: 0.3s ease;
+            color: $ColorVectorText;
+            background-color: $ColorGreenBtn;
+        }
+        &:active{
+            transition: 0.3s ease;
+            background-color: $ColorDarkGreenAccent;
+        } 
+    }
+} */

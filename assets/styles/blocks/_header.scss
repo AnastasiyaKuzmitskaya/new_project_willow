@@ -1,0 +1,290 @@
+.main-section{
+    position: relative;
+    padding-bottom: 60px;
+    
+    &__item-logo{
+        display: flex;
+        align-items: center;
+        padding: 32px 0 80px;
+        
+        
+    }
+
+    &__logo--wrapper{
+        display: flex;
+        align-items: center;
+        margin-right: 35px;
+        
+    }
+
+    &__logo-img{
+        background-color: #ECE8D9;
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+        margin-right: 12px;
+    }
+    &__logo-name{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: 1px;
+        color: #333333;
+    }
+    &__email{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px; 
+        color: #485B60; 
+        width: 135px;
+        
+    }
+    &__content-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 110px;
+        
+    }
+
+}
+.left-item{
+    padding-top: 50px;
+    &__welcome{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #485B60;
+        margin-bottom: 11px;
+    }
+    &__title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 80px;
+        letter-spacing: 2.88px;
+        color: #102226;
+        width: 410px;
+        margin-bottom: 21px;
+    }
+    &__second-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.54px;
+        color: #102226;
+        margin-bottom: 32px;
+    }
+
+    &__text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #485B60;
+        
+
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        border-radius: 0;
+        cursor: pointer;
+        background: $ColorGreenBtn;
+        border: 1px solid #EFF1F5;
+        width: 175px;
+        height: 50px;
+        padding: 13px 20px 13px 33px;
+        margin-bottom: 100px;
+        &:hover{
+            background: $ColorDarkGreenAccent;
+            transition: 0.3s ease;
+        }
+        &:active{
+            background: $ColorGreenBtn;
+            transition: 0.3s ease;
+        }
+        &:hover .left-item__main-svg path{
+            fill: #FFFFFF;
+        } 
+    }
+    &__btn-svg path{
+        fill: #FFFFFF;
+    }
+    &__btn-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-right: 30px;
+    } 
+}
+.righte-item{
+        position: relative;
+    
+    &__img{
+        z-index: 1;
+        position: relative;
+        
+    }
+    &__rectangle{
+        background: #ECE8D9;
+        width: 495px;
+        top: -153px;
+        
+        position: absolute;
+        
+        height: 723px;
+    }  
+    &__green{
+        width: 180px;
+        height: 300px;
+        position: absolute;
+        background: #1C3F3A;
+        top: -153px;
+        right: -78px;;
+        z-index: 2;
+        &:hover {
+            box-shadow: (0px 8px 16px rgba(38, 38, 38, 0.24))  ;
+            transform: scale(1.02)
+        }
+        
+    }
+    &__img-green{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    &__body-green{
+        display: flex;
+        flex-direction: column;
+        padding: 158px 24px 24px 24px;
+
+    }
+    &__green-text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    &__img-white{
+        margin-right: 25px;
+    }
+    &__white{
+        width: 263px;
+        height: 128px;
+        background: #FFFFFF;
+        box-shadow: 51px 51px 72px rgba(117, 114, 104, 0.16);
+        border-radius: 0px;
+        position: absolute;
+        top: 401px;
+        left: -73px;
+        z-index: 2;
+        padding: 28px;
+        &:hover {
+            box-shadow: (0px 8px 16px rgba(38, 38, 38, 0.24))  ;
+            transform: scale(1.02)
+        }
+    }
+    &__body-white{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__white-numbers{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        letter-spacing: 0.96px;
+        color: #102226;
+    }
+
+    &__white-text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.32px;
+        color: #485B60;
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        border-radius: 0;
+        cursor: pointer;
+        border: none;
+        background: $ColorDarkGreenAccent;
+        /* padding: 4px 7px ; */
+        height: 32px;
+        &:hover{
+            background-color:$ColorBordeyBtn ;
+            transition: 0.3s ease;
+        }
+        &:active{
+            background-color:$ColorBackVector;
+            transition: 0.3s ease;
+        }
+        &:hover .righte-item__btn-title{
+            color: $ColorTitleText;
+        }
+        &:hover .righte-item__btn-svg path{
+            fill: $ColorTitleText;
+        }
+    } 
+    &__btn-title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.28px;
+        color: #ECE8D9;
+        margin-right: 11px;
+    }
+    &__btn-svg path{
+        fill: #FFFFFF;
+    }
+}
+
+
+
+
+
+/* .btn{
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    justify-content: space-between;
+
+    &__main--wrapper{
+        padding: 13px 20px 13px 33px;
+        background: $ColorGreenBtn; */
+        /* border: 1px solid #EFF1F5; */
+       /*  &:hover{
+            background-color: #fff;
+        } */
+
+/*     }
+    &__main-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-right: 30px;
+    }
+    
+} */

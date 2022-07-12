@@ -1,0 +1,182 @@
+.articles{
+    padding: 85px 0 80px;
+    
+    &__block-title--wrapper{
+        position: relative;
+        padding-bottom: 70px;
+    }
+    &__star-under{
+        position: absolute;
+        top: -36px;
+        left: 187px;
+    }
+    
+        &__block-title{
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+        padding: 0 235px;
+        
+        
+    }
+    
+    
+   
+    &__text-title{
+        
+        min-width: 336px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: 1.44px;
+        color: #102226;
+        margin-right: 310px; 
+        
+    }
+    
+ 
+
+
+
+    &__item--wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+        width: 1280px;
+    
+
+    }
+
+    &__item{
+        margin-right: 40px;
+        border: 1px solid $ColorBorderGrey;
+        &:last-child{
+            margin-right: 0;
+        }
+        &:hover {
+            box-shadow: (0px 8px 16px rgba(38, 38, 38, 0.24))  ;
+            transform: scale(1.02)
+        } 
+        
+   
+        
+        
+    }
+
+    
+    &__card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 25px 25px 25px;
+        height: 100%;
+     
+    }
+
+    &__img-item{
+        margin-bottom: 24px;
+    }
+    &__img{
+    width: 100%;
+    }
+
+
+
+    &__profi{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 9px;
+        color: $ColorTitleText;
+    }
+    &__text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: 0.72px;
+        color: $ColorTitleText;
+        margin-bottom: 25px;
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        border-radius: 0;
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 8px 16px 10px 25px;
+        border: 1px solid $ColorDarkGreenAccent;
+        &:hover{
+            background: $ColorGreenBtn  ;
+            transition: 0.3s ease;
+        }
+        &:active{
+            background: $ColorLineVector;
+            transition: 0.3s ease;
+            
+        }
+        &:hover .articles__btn-title{
+            color: $ColorVectorText;
+            transition: 0.3s ease;
+        } 
+        &:hover .articles__btn-svg path{
+            fill: $ColorVectorText;
+            transition: 0.3s ease;
+        } 
+        
+    }
+    &__btn-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: $ColorDarkGreenAccent;
+        margin-right: 17px;
+    }
+    &__btn-svg path{
+        fill: $ColorDarkGreenAccent;
+    }
+
+    &__btn-item{
+        display: flex;
+        align-items: center;
+        padding: 3px 7px 3px 7px;
+        width: 130px;
+        border-radius: 0;
+        background: none;
+        height: 32px;
+        border: none;
+        cursor: pointer;
+        &:hover {
+            background-color: $ColorGreenBtn;
+        }
+   
+        &:active {
+            background-color: $ColorDarkGreenAccent;
+        }
+        &:hover .articles__btn-name{
+            color: $ColorBordeyBtn;
+        } 
+        &:hover .articles__btn-svg path{
+            fill: $ColorBordeyBtn;
+            
+        }
+    }
+    &__btn-name{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.28px;
+        color:$ColorTitleText;
+        margin-right: 11px;
+    }
+}

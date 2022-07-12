@@ -1,0 +1,91 @@
+.banner-second{
+    padding-top: 75px;
+    padding-bottom: 90px; 
+    
+    
+    &__img--wrapper{
+        position: relative;
+        bottom: 165px;
+
+    }
+
+    &__img{
+        width: 125%;
+        
+    }  
+    &__item{
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+        background: #1C3F3A;
+        width: 1280px;
+        height: 412px;
+        justify-content: space-between;
+    }  
+    
+    &__title--wrapper{
+        max-width: 280px;
+        
+    } 
+    &__title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: 1.68px;
+        color: #FFFFFF;
+        
+        
+    }
+    
+    &__text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.54px;
+        color: #FFFFFF;
+        width: 359px;
+        margin-bottom: 27px;
+
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        background: none;
+        border-radius: 0;
+        padding: 10px 15px 12px 25px;
+        border: 1px solid #F1F3F3;
+        cursor: pointer;
+        &:hover{
+            background-color:$ColorBordeyBtn ;
+            transition: 0.3s ease;
+        }
+        &:active{
+            background-color:$ColorBackVector;
+            transition: 0.3s ease;
+        }
+        &:hover .banner-second__btn-title{
+            color: $ColorTitleText;
+        }
+        &:hover .banner-second__btn-svg path{
+            fill: $ColorTitleText;
+        }
+
+    }
+    &__btn-title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-right: 16px;
+    }
+    &__btn-svg path{
+        fill:#FFFFFF;
+    }
+}
+
+ 

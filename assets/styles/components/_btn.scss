@@ -1,0 +1,73 @@
+/* .btn{
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    cursor: pointer;
+    &__left-item{
+        background: $ColorGreenBtn;
+        border: 1px solid #EFF1F5;
+        width: 175px;
+        height: 50px;
+        padding: 13px 20px 13px 33px;
+        margin-bottom: 100px;
+        &:hover{
+            background: $ColorDarkGreenAccent;
+            transition: 0.3s ease;
+        }
+        &:active{
+            background: $ColorGreenBtn;
+            transition: 0.3s ease;
+        }
+        &:hover .left-item__main-svg path{
+            fill: #FFFFFF;
+        }
+    }
+    &__svg path{
+        fill: #FFFFFF;
+    }
+    &__title--font-inter{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-right: 30px;
+    }
+
+    &__righte-item{
+        border:none;
+        background: $ColorDarkGreenAccent;
+        padding: 4px 7px;
+        
+      /*   &:hover{
+            background: $ColorDarkGreenAccent;
+            transition: 0.3s ease;
+        }
+        &:active{
+            background: $ColorGreenBtn;
+            transition: 0.3s ease;
+        }
+        &:hover .left-item__main-svg path{
+            fill: #FFFFFF;
+        }
+    } */
+/* }
+    &__title--font-roboto{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.28px;
+        color: #ECE8D9;
+        margin-right: 11px;
+    }
+}
+
+
+
+
+
+
+
+  */

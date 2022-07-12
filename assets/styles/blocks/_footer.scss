@@ -1,0 +1,41 @@
+.footer__copyrighte{
+    background-color: #F1F3F3; 
+    width: 100%;
+    position: relative;
+}
+.copyrighte{ 
+    &__text--wrapper{
+        margin-right: 100px;
+    }
+    &__text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+
+        letter-spacing: 0.42px;
+        color: #102226;
+    
+    }
+    &__colortext{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 0.42px;
+        color: #26534C;
+
+    }
+    &__item{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 75px;
+        padding: 25px 130px 25px 110px;
+        
+    }
+    
+    
+}
+

@@ -1,0 +1,156 @@
+
+.title{
+
+    position: relative;
+    min-height: 150px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+    &__title--wrapper{
+        position: absolute;
+        left: calc(50% - 266px/2);
+        top: calc(50% - 56px/2 - 2px); 
+    }
+    &__text-over{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        letter-spacing: 1.44px;
+        color: $ColorTitleText;
+    }
+    &__star-under{
+        position: absolute;
+        top: 8px;
+        right: 564px;
+    }
+    
+
+    }
+
+
+.our-awards{
+
+    
+    padding-bottom: 50px;
+
+    &__items--wrapper {
+        display: flex;
+        justify-content: center;
+        width: 1280px;
+    }
+
+
+
+    &__item {
+        border: 1px solid $ColorBorderGrey;
+        
+        margin-right:35px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+
+
+        &:hover {
+            box-shadow: (0px 8px 16px rgba(38, 38, 38, 0.24))  ;
+            transform: scale(1.02)
+        }
+
+        
+    }
+   
+
+    &__card {
+       
+        background-color: #ffffff;
+        height: 372px;
+        padding:41px 41px 48px 45px;
+        width: 290px;
+        transition: 0.3s ease;
+
+       
+    }
+
+    &__cup-img{
+        width: 32px;
+        height: 32px;
+    }
+
+    &__data{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 2px;
+        color:$ColorGreyText;
+        margin-bottom: 9px;
+    }
+
+    &__card-title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: 0.72px;
+        color: ColorTitleText;  
+        width: 201px;  
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        width: 208px;
+        height: 32px;
+        border-radius: 0;
+        background: none;
+        border: none;
+        cursor: pointer;
+        &:hover {
+            background-color: $ColorGreenBtn;
+        }
+   
+        &:active {
+            background-color: $ColorDarkGreenAccent;
+        }
+        &:hover .our-awards__btn-title{
+            color: $ColorBordeyBtn;
+        }
+        &:hover .our-awards__btn-svg path{
+            fill: $ColorBordeyBtn;
+            
+        }
+    }
+    &__btn-title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.28px;
+        color: $ColorTitleText;
+        margin-right: 11px;
+        
+    }
+    &__btn-svg path{
+        fill: $ColorTitleText;;
+    }
+}
+
+
+
+
+.separator{
+    border: 1px solid $ColorBorderGrey;
+        
+    &__small--margin{
+        width:208px ;
+        margin: 32px auto 32px;  
+    } 
+
+    &__big--margin{
+        width: 208px;
+        margin: 31px auto 36px;
+    }
+}
